@@ -1,66 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Microsoft Power BI</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ZenhBwBW9R/5pcMMaA+aUEkLHsAG+/USMshhjOjGMW8wPwHbSiEVNkTJv8NsvT+1" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
 </head>
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Home Page</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#powerbi">Power BI <i class="fas fa-chart-line"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tools">Tools <i class="fas fa-wrench"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#images">Images <i class="fas fa-image"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="path/to/powerbi_logo.svg" alt="Microsoft Power BI Logo" width="30" height="30" class="d-inline-block align-text-top">
-        Power BI
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link" href="#">Resources</a>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-center">Home Page</h1>
+            </div>
         </div>
-      </div>
+        <div class="row" id="powerbi">
+            <div class="col-lg-12">
+                <h2>Microsoft Power BI</h2>
+                <ul>
+                    <li><i class="fas fa-cube"></i> <a href="#">Power BI Desktop</a></li>
+                    <li><i class="fas fa-cloud"></i> <a href="#">Power BI Service</a></li>
+                    <li><i class="fas fa-mobile-alt"></i> <a href="#">Power BI Mobile</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="tools">
+            <div class="col-lg-12">
+                <h2>Tools</h2>
+                <ul>
+                    <li><i class="fas fa-hammer"></i> <a href="#">Power BI Developer Tools</a></li>
+                    <li><i class="fas fa-code"></i> <a href="#">Power BI API</a></li>
+                    <li><i class="fas fa-plug"></i> <a href="#">Power BI Integrations</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="images">
+            <div class="col-lg-12">
+                <h2>Images</h2>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="https://picsum.photos/200/300" class="img-fluid" alt="Random Image 1">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://picsum.photos/200/301" class="img-fluid" alt="Random Image 2">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://picsum.photos/200/302" class="img-fluid" alt="Random Image 3">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </nav>
-
-  <section class="hero-image">
-    <div class="container d-flex h-100 align-items-center justify-content-center">
-      <div class="text-center">
-        <h1>Unlock the Power of Your Data</h1>
-        <p>Empower your business with Microsoft Power BI, the leading data visualization and analytics platform. Turn complex data into clear insights that drive better decision-making.</p>
-        <a href="#" class="btn btn-primary">Get Started Today</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="container py-5">
-    <h2>Tools and Features</h2>
-    <div class="row">
-      <div class="col-md-4 mb-3">
-        <div class="card">
-          <img src="path/to/icon1.svg" alt="Icon 1" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">Data Visualization</h5>
-            <p class="card-text">Create stunning reports and dashboards that bring your data to life. Explore a wide variety of interactive charts and graphs to gain deeper insights and tell compelling data stories.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-3">
-        <div class="card">
-          <img src="path/to/icon2.svg" alt="Icon 2" class="card-img-top">
-          <link rel="stylesheet" href="https://icons.getbootstrap.com/icons/bootstrap-icons.css"> <div class="card-body">
-            <h5 class="card-title">Self-Service Analytics</h5>
-            <p class="card-text">Empower everyone in your organization to explore and analyze data independently. Power BI's intuitive interface allows users of all skill levels to...</p>
-          </div>
-        </div>
-      </div>
-      </div>
-  </section>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
