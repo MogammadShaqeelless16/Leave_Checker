@@ -1,5 +1,6 @@
 # Leave Checker App
-=====================
+![Black and Green Flat Illustrated Organic Cosmetics Logo](https://github.com/MogammadShaqeelless16/Leave_Checker/assets/54390756/cf79c3c9-e9f2-41c3-8d46-45cb30870d8a)
+
 
 ## Overview
 -----------
