@@ -1,8 +1,3 @@
-.text-color {
-    color: #ADD9F4;
-    font-family: cursive;
-    
-}
 
 
 .footer {
@@ -10,7 +5,6 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
     color: white;
     text-align: center;
  }
@@ -30,8 +24,43 @@
     padding: 0;
   }
 
-  .bg-1{
 
-    background-color: #608399;
-  }
+body{
+  background-color:#508CA4 ;
+  color: whitesmoke;
+  font-family: "Playfair Display", serif;
+  
+}
+
+h1, h2{
+  text-align: center;
+  font-size: 1.6rem;
+  color: #a7e1bc;
+  font-weight: bolder;
+}
+
+.font_navbar{
+  font-size: 1.3rem;
+  font-family: "Playfair Display", serif;
+}
+
+h4{
+  color: #a7e1bc;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.btn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #508CA4 ;
+  font-size: 15px;
+}
+
+
 

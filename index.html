@@ -7,23 +7,29 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
-<body class="bg-dark text-white">
+<body>
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand text-white" href="#">Home Page</a>
+        <a class="navbar-brand text-white font_navbar" href="./index.html">Home Page</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link text-white" href="pages/power_pi.html">Power BI <i class="fas fa-chart-line"></i></a>
+                    <a class="nav-link text-white font_navbar" href="pages/power_pi.html">Power BI &nbsp; <i class="fas fa-chart-line"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="pages/tools.html" >Tools<i class="fas fa-wrench"></i></a>
+                    <a class="nav-link text-white font_navbar" href="pages/tools.html" >Tools &nbsp;<i class="fas fa-wrench"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="pages/teams.html">Teams<i class="fas fa-user-group"></i></a>
+                    <a class="nav-link text-white font_navbar" href="pages/teams.html">Teams &nbsp;<i class="fas fa-user-group"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white font_navbar" href="pages/dahsboard.html" >Dashboard &nbsp;<i class="fa-solid fa-chart-simple"></i></a>
                 </li>
             </ul>
         </div>
@@ -34,20 +40,19 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="text-center" style="font-size: 3.5rem;">Leave Checker</h1>
+                <h1>Leave Checker</h1>
                 <br>
                 <!-- struggling to change font family -->
                 <h2 class="text-center" > What are we?</h2>
-                <br>
-                <p class="text-color" style="font-size: 1.8rem;">Leave Checker is a web-based application designed to help organizations manage and track employee leaves efficiently. The app uses HTML, CSS, and Power BI to provide a user-friendly interface and in-depth analytics for leave management.</p>
+                
+                <p class="text-color" style="padding: 100px; border-block:inherit;font-size: 1.4rem;">Leave Checker is a web-based application designed to help organizations manage and track employee leaves efficiently. The app uses HTML, CSS, and Power BI to provide a user-friendly interface and in-depth analytics for leave management.</p>
             </div>
             
             <div class="col-lg-12">
-              <br>
-              <br>
-              <h2 class="text-center" style="font-size: 3rem;" >Features</h2>
-               <ul class="list-unstyled text-center text-color
-                " style="font-size: 1.8rem;" >
+            
+              
+              <h2 >Features</h2>
+               <ul class="list-unstyled text-center" style="font-size: 1.4rem;" >
                 <li>Employee leave calendar</li>
                 <li>Leae type categorization (anual, sick, paremtal, etc)</li>
                 <li>Leave balance</li>
@@ -69,7 +74,7 @@
             <div class="card-body bg-secondary">
                 <h4 class="card-title">Power BI</h4>
                 <p class="card-text">Some example text.</p>
-                <a href="#" class="btn btn-primary">See More</a>
+                <a href="#" class="btn" style="color: whitesmoke; font-size: bold;">See More</a>
               </div>
           </div>
           <div class="col-sm-4">
@@ -78,16 +83,16 @@
             <div class="card-body bg-secondary">
                 <h4 class="card-title">Tools</h4>
                 <p class="card-text">Some example text.</p>
-                <a href="#" class="btn btn-primary">See More</a>
+                <a href="#" class="btn" style="color: whitesmoke; font-size: bold;">See More</a>
               </div>
           </div>
           <div class="col-sm-4">
                     
             <img class="card-img-top" src="images/picture1.jpg" alt="Card image">
             <div class="card-body bg-secondary">
-                <h4 class="card-title">Teams</h4>
+                <h4 class="card-title">Dashboard</h4>
                 <p class="card-text">Some example text.</p>
-                <a href="#" class="btn btn-primary">See More</a>
+                <a href="#" class="btn" style="color: whitesmoke; font-size: bold;">See More</a>
               </div>
           </div>
         </div>
@@ -97,15 +102,14 @@
 <br>
 <br>
 <br>
-<footer class="text-color text-center" style="font-size: 1.5rem;">
-  <h5 style="font-size: 1.5rem;">Contact Us</h5>
-  <p>Email: info@example.com</p>
+<footer class="text-center" style="font-size: 1.1rem; background-color: #6c757d">
+  <h5 style="font-size: 1.2rem;">Contact Us</h5>
+  <p>Email: encryptioneliteneforcers@example.com</p>
   <p>Phone: (123) 456-7890</p>
-  <p class="text-muted">&copy; 2024 Your Company. All rights reserved.</p>
+  <p style="font-size: 1.2rem;">&copy; 2024 Encryption Elite Enforcers. All rights reserved.</p>
 </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 
