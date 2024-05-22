@@ -26,8 +26,8 @@
 
 
 body{
-  background-color:#508CA4 ;
-  color: whitesmoke;
+  background-color: beige ;
+  color: black;
   font-family: "Playfair Display", serif;
   
 }
@@ -35,8 +35,9 @@ body{
 h1, h2{
   text-align: center;
   font-size: 1.6rem;
-  color: #a7e1bc;
+  color: #3ab54a;
   font-weight: bolder;
+ 
 }
 
 .font_navbar{
@@ -46,7 +47,7 @@ h1, h2{
 }
 
 h4{
-  color: #a7e1bc;
+  color: #3ab54a;
   font-weight: bolder;
   text-align: center;
 }
@@ -63,5 +64,7 @@ h4{
   font-size: 15px;
 }
 
-
+#logo {
+  border-radius: 1000px;
+}
 
