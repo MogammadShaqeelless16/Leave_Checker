@@ -65,10 +65,23 @@ h4{
   font-weight: bolder;
 }
 
+.btn_teams{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFC900 ;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
 #logo {
   border-radius: 1000px;
 }
 
 .full-height {
   height:  100vh;
+}
+
+h5 {
+  text-align: center;
 }
