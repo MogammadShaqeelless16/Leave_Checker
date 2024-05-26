@@ -47,7 +47,7 @@ h1, h2{
 }
 
 h4{
-  color: #3ab54a;
+  color: #FFC900;
   font-weight: bolder;
   text-align: center;
 }
@@ -60,11 +60,15 @@ h4{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-color: #508CA4 ;
+  background-color: #FFC900 ;
   font-size: 15px;
+  font-weight: bolder;
 }
 
 #logo {
   border-radius: 1000px;
 }
 
+.full-height {
+  height:  100vh;
+}
